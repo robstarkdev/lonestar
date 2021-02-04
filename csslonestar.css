@@ -1,0 +1,101 @@
+
+
+body {margin: 0;}
+
+#banner {
+    background-image: url(images/0.jpg);
+    transition: background-image .8s;
+    /*background-image: url('images/schoolwillowbend.jpg');*/
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+#topmenubar {
+    position: absolute;
+    left: 15%;
+    top: 0px;
+    background-color: rgba(128,128,128,0.8);
+    padding: 12px;
+    border: solid 1px red;
+}
+#topmenubar a {
+    color: ivory;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px;
+}
+#topmenubar a:hover {
+    text-decoration: none;
+    color: darkblue;
+}
+
+
+
+.bannertext {
+    color: ivory;
+    font-size: 3.2em;
+    font-weight: bold;
+    position: absolute;
+    top: 220px;
+    left: 40%;
+}
+#text0 {
+    display: block;
+    transition: display 1.2s;
+}
+#text1 {
+    display: none;
+    transition: display 1.2s;
+}
+#text2 {
+    display: none;
+    transition: display .8s;
+}
+#text3 {
+    display: none;
+    transition: display .8s;
+}
+#text4 {
+    display: none;
+    transition: display .8s;
+}
+#fadedscreen {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0,0,0,0.5);
+}
+#upleftlogopic{
+    position: absolute; left: 10px; top: 13px;
+}
+#logoimage {
+    height: 100px; width: auto;
+}
+#upleftlogotext {
+    position: absolute; left: 15px; top: 47px;
+}
+
+#upperleftlogobox {
+    position: absolute;
+    z-index: 44;
+    background-color: rgba(128,128,128,0.8);
+    width: 150px;
+    height: 130px;
+    left: 15px;
+    top: 15px;
+    border: solid 1px orangered;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
